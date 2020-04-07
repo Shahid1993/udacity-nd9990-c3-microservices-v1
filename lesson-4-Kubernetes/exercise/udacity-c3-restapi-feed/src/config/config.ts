@@ -4,7 +4,8 @@ export const config = {
     "password": process.env.POSTGRES_PASSWORD,
     "database": process.env.POSTGRES_DATABASE,
     "host": process.env.POSTGRES_HOST,
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "url": process.env.URL
   },
   "aws": {
     "aws_region": process.env.AWS_REGION,
